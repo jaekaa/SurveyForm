@@ -2,12 +2,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="styles/styles.css" />
+        <link rel="stylesheet" href="styles/styles.css"/>
+        <link rel="icon" type="image/x-icon" href="./img/survey_icon.jpg">
+        <script src="script/script.js"></script>
     </head>
     <body>
         <div class="container">
         <header class="header">
-            <h1 id="title" class="text-center">freeCodeCamp Survey Form</h1>
+            <h1 id="title" class="text-center">Survey Form</h1>
             <p id="description" class="description text-center">
             Thank you for taking the time to help us improve the platform
             </p>
@@ -55,14 +57,13 @@
                 <option disabled selected value>Select current role</option>
                 <option value="student">Student</option>
                 <option value="job">Full Time Job</option>
-                <option value="learner">Full Time Learner</option>
                 <option value="preferNo">Prefer not to say</option>
                 <option value="other">Other</option>
             </select>
             </div>
 
             <div class="form-group">
-                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <p>Would you recommend Genshin Impact to a friend?</p>
             <label>
                 <input
                 name="user-recommend"
@@ -92,13 +93,13 @@
             </div>
 
             <div class="form-group">
-            <p>What is your favorite feature of freeCodeCamp?</p>
+            <p>What is your favorite feature on Genshin Impact?</p>
             <select id="most-like" name="mostLike" class="form-control" required>
                 <option disabled selected value>Select an option</option>
                 <option value="challenges">Challenges</option>
-                <option value="projects">Projects</option>
-                <option value="community">Community</option>
-                <option value="openSource">Open Source</option>
+                <option value="events">Events</option>
+                <option value="exploration">Exploration</option>
+                <option value="story">Story Quests</option>
             </select>
             </div>
 
@@ -111,26 +112,10 @@
             <label
                 ><input
                 name="prefer"
-                value="front-end-projects"
+                value="animations"
                 type="checkbox"
                 class="input-checkbox"
-                />Front-end Projects</label
-            >
-            <label>
-                <input
-                name="prefer"
-                value="back-end-projects"
-                type="checkbox"
-                class="input-checkbox"
-                />Back-end Projects</label
-            >
-            <label
-                ><input
-                name="prefer"
-                value="data-visualization"
-                type="checkbox"
-                class="input-checkbox"
-                />Data Visualization</label
+                />Animations</label
             >
             <label
                 ><input
@@ -143,58 +128,74 @@
             <label
                 ><input
                 name="prefer"
-                value="open-source-community"
+                value="characters-skills"
                 type="checkbox"
                 class="input-checkbox"
-                />Open Source Community</label
+                />Characters Skills</label
             >
             <label
                 ><input
                 name="prefer"
-                value="gitter-help-rooms"
+                value="combat-skills"
                 type="checkbox"
                 class="input-checkbox"
-                />Gitter help rooms</label
+                />Combat Skills</label
+            >
+            <label>
+                <input
+                name="prefer"
+                value="dialogues"
+                type="checkbox"
+                class="input-checkbox"
+                />Dialogues</label
+            >            
+            <label
+                ><input
+                name="prefer"
+                value="daily-commissions"
+                type="checkbox"
+                class="input-checkbox"
+                />Daily Commissions</label
             >
             <label
                 ><input
                 name="prefer"
-                value="videos"
+                value="graphics"
                 type="checkbox"
                 class="input-checkbox"
-                />Videos</label
+                />Graphics</label
             >
             <label
                 ><input
                 name="prefer"
-                value="city-meetups"
+                value="map"
                 type="checkbox"
                 class="input-checkbox"
-                />City Meetups</label
+                />Map</label
             >
             <label
                 ><input
                 name="prefer"
-                value="wiki"
+                value="events"
                 type="checkbox"
                 class="input-checkbox"
-                />Wiki</label
+                />Events</label
             >
             <label
                 ><input
                 name="prefer"
-                value="forum"
+                value="rewards"
                 type="checkbox"
                 class="input-checkbox"
-                />Forum</label
+                />Rewards</label
             >
             <label
                 ><input
                 name="prefer"
-                value="additional-courses"
+                value="quests"
                 type="checkbox"
                 class="input-checkbox"
-                />Additional Courses</label
+                />Quests</label
             >
             </div>
 
